@@ -1,0 +1,16 @@
+-- Column: str_ifsc_code
+
+
+-- ALTER TABLE ahism.acct_ledger_mst DROP COLUMN str_ifsc_code;
+
+
+ALTER TABLE ahism.acct_ledger_mst ADD COLUMN str_ifsc_code character varying(20);
+
+
+-- Column: str_email_id
+
+
+-- ALTER TABLE ahism.acct_ledger_mst DROP COLUMN str_email_id;
+
+
+ALTER TABLE ahism.acct_ledger_mst ADD COLUMN str_email_id character varying(30);
